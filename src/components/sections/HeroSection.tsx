@@ -90,7 +90,7 @@ export function HeroSection() {
             {[
               { icon: Github, href: 'https://github.com/ankush6398', label: 'GitHub' },
               { icon: Linkedin, href: 'https://linkedin.com/in/ankush-kumar-1992ba307', label: 'LinkedIn' },
-              { icon: Mail, href: 'mailto:ankushkumar300@gmail.com', label: 'Email' },
+              { icon: Mail, href: 'mailto:sehgalankush339@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

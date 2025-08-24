@@ -27,8 +27,12 @@ export function FooterSection() {
             animate={isInView ? { opacity: 1, scale: 1 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h3 className="text-2xl font-bold gradient-text">Alex Johnson</h3>
-            <p className="text-muted-foreground mt-2">Full-Stack Developer & UI/UX Designer</p>
+            <h3 className="text-2xl font-bold gradient-text">Ankush Kumar</h3>
+            <p className="text-muted-foreground mt-2">Computer Science Engineering Student & MERN Stack Developer</p>
+            <div className="mt-3 space-y-1">
+              <p className="text-sm text-muted-foreground">📧 sehgalankush339@gmail.com</p>
+              <p className="text-sm text-muted-foreground">📱 +91 63980 41042 | 📍 Dehradun, India</p>
+            </div>
           </motion.div>
 
           {/* Navigation Links */}
@@ -65,7 +69,7 @@ export function FooterSection() {
             className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0"
           >
             <p className="text-sm text-muted-foreground flex items-center">
-              © 2024 Alex Johnson. Made with{' '}
+              © 2024 Ankush Kumar. Made with{' '}
               <Heart className="h-4 w-4 text-red-500 mx-1" fill="currentColor" />
               and lots of coffee.
             </p>
