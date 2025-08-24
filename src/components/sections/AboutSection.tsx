@@ -8,10 +8,10 @@ export function AboutSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const stats = [
-    { number: "50+", label: "Projects Completed" },
-    { number: "3+", label: "Years Experience" },
-    { number: "25+", label: "Happy Clients" },
-    { number: "100%", label: "Satisfaction Rate" }
+    { number: "6+", label: "Projects Completed" },
+    { number: "2+", label: "Years Experience" },
+    { number: "70%", label: "Performance Improvement" },
+    { number: "2", label: "Internships" }
   ]
 
   return (
@@ -40,7 +40,7 @@ export function AboutSection() {
             <div className="relative mx-auto w-80 h-80 rounded-2xl overflow-hidden">
               <div className="w-full h-full bg-gradient-to-br from-primary to-secondary opacity-80 absolute inset-0"></div>
               <div className="w-full h-full bg-gradient-to-br from-background to-muted flex items-center justify-center">
-                <div className="text-6xl font-bold gradient-text">AJ</div>
+                <div className="text-6xl font-bold gradient-text">AK</div>
               </div>
               {/* Floating Elements */}
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-accent rounded-full animate-bounce-gentle"></div>
@@ -56,15 +56,17 @@ export function AboutSection() {
             className="space-y-6"
           >
             <div className="space-y-4">
-              <h3 className="text-2xl font-semibold">Hi, I'm Alex Johnson</h3>
+              <h3 className="text-2xl font-semibold">Hi, I'm Ankush Kumar</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I'm a passionate full-stack developer with over 3 years of experience building 
-                web applications that users love. I specialize in React, Node.js, and modern 
-                web technologies, always staying up-to-date with the latest trends and best practices.
+                I'm a passionate full-stack developer specializing in MERN stack and AI-powered web applications. 
+                Currently pursuing my Bachelor's in Computer Science & Engineering at Graphic Era Hill University, 
+                with hands-on experience in building production-ready applications that improve data visualization 
+                efficiency and user engagement by up to 70%.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to 
-                open-source projects, or sharing my knowledge through technical writing and mentoring.
+                I have experience working with modern technologies like React.js, Node.js, Express.js, MongoDB, 
+                and AI integration. I'm always eager to learn new technologies and build innovative solutions 
+                for real-world problems.
               </p>
             </div>
 

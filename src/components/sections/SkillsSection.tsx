@@ -7,31 +7,31 @@ const skills = [
   {
     category: "Frontend",
     technologies: [
-      { name: "React", level: 95, icon: "⚛️" },
-      { name: "TypeScript", level: 90, icon: "📘" },
+      { name: "React.js", level: 95, icon: "⚛️" },
       { name: "Next.js", level: 85, icon: "🔺" },
-      { name: "Tailwind CSS", level: 95, icon: "🎨" },
-      { name: "Framer Motion", level: 80, icon: "🎭" }
+      { name: "HTML5", level: 95, icon: "🌐" },
+      { name: "CSS3", level: 90, icon: "🎨" },
+      { name: "Shery.js", level: 80, icon: "✨" }
     ]
   },
   {
-    category: "Backend",
+    category: "Backend & Languages",
     technologies: [
       { name: "Node.js", level: 90, icon: "🟢" },
-      { name: "Express", level: 85, icon: "🚀" },
-      { name: "PostgreSQL", level: 80, icon: "🐘" },
-      { name: "MongoDB", level: 75, icon: "🍃" },
-      { name: "GraphQL", level: 70, icon: "🔗" }
+      { name: "Express.js", level: 85, icon: "🚀" },
+      { name: "JavaScript", level: 95, icon: "💛" },
+      { name: "C++", level: 80, icon: "⚡" },
+      { name: "C", level: 75, icon: "🔧" }
     ]
   },
   {
-    category: "Tools & Others",
+    category: "Database & Tools",
     technologies: [
-      { name: "Git", level: 95, icon: "📝" },
-      { name: "Docker", level: 75, icon: "🐳" },
-      { name: "AWS", level: 70, icon: "☁️" },
-      { name: "Figma", level: 85, icon: "🎨" },
-      { name: "Jest", level: 80, icon: "🧪" }
+      { name: "MongoDB", level: 85, icon: "🍃" },
+      { name: "REST APIs", level: 90, icon: "🔗" },
+      { name: "Git/GitHub", level: 95, icon: "📝" },
+      { name: "Chart.js", level: 80, icon: "📊" },
+      { name: "AI Integration", level: 75, icon: "🤖" }
     ]
   }
 ]
@@ -117,7 +117,7 @@ export function SkillsSection() {
         >
           <h3 className="text-xl font-semibold mb-8">Technologies I Work With</h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'AWS', 'Git', 'Figma'].map((tech, index) => (
+            {['React.js', 'JavaScript', 'Node.js', 'MongoDB', 'Express.js', 'C++', 'Git', 'Chart.js'].map((tech, index) => (
               <motion.div
                 key={tech}
                 initial={{ opacity: 0, scale: 0 }}

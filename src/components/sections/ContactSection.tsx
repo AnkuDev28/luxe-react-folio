@@ -13,19 +13,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "alex.johnson@email.com",
-    href: "mailto:alex.johnson@email.com"
+    value: "ankushkumar300@gmail.com",
+    href: "mailto:ankushkumar300@gmail.com"
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567"
+    value: "+91 63980 41042",
+    href: "tel:+916398041042"
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Dehradun, India",
     href: "#"
   }
 ]
@@ -34,20 +34,14 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/ankush6398",
     color: "hover:text-gray-900 dark:hover:text-white"
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://linkedin.com/in/ankush-kumar-1992ba307",
     color: "hover:text-blue-600"
-  },
-  {
-    icon: Twitter,
-    label: "Twitter",
-    href: "https://twitter.com",
-    color: "hover:text-blue-400"
   }
 ]
 

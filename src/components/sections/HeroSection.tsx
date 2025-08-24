@@ -46,7 +46,7 @@ export function HeroSection() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6"
           >
-            Alex Johnson
+            Ankush Kumar
           </motion.h1>
 
           {/* Tagline */}
@@ -57,11 +57,11 @@ export function HeroSection() {
             className="space-y-4"
           >
             <h2 className="text-xl md:text-3xl lg:text-4xl gradient-text font-semibold">
-              Full-Stack Developer & UI/UX Designer
+              Full-Stack Developer & AI Enthusiast
             </h2>
             <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto">
-              I craft beautiful, responsive web applications that deliver exceptional user experiences.
-              Passionate about clean code, modern design, and innovative solutions.
+              Specializing in MERN stack and AI-powered web applications. Passionate about building scalable, 
+              high-performance solutions that improve user engagement and data visualization efficiency.
             </p>
           </motion.div>
 
@@ -88,9 +88,9 @@ export function HeroSection() {
             className="flex justify-center space-x-6 mt-8"
           >
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
-              { icon: Mail, href: '#contact', label: 'Email' },
+              { icon: Github, href: 'https://github.com/ankush6398', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://linkedin.com/in/ankush-kumar-1992ba307', label: 'LinkedIn' },
+              { icon: Mail, href: 'mailto:ankushkumar300@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

@@ -7,67 +7,51 @@ import { Calendar, MapPin } from 'lucide-react'
 const experiences = [
   {
     id: 1,
-    title: "Senior Frontend Developer",
-    company: "TechCorp Solutions",
-    location: "San Francisco, CA",
-    period: "2022 - Present",
-    type: "Full-time",
-    description: "Lead frontend development for multiple client projects, mentoring junior developers, and implementing modern React architectures. Improved application performance by 40% and reduced bundle size by 30%.",
+    title: "Full Stack Developer Intern",
+    company: "Zolo Development",
+    location: "Remote",
+    period: "Jun 2025 - Present",
+    type: "Internship",
+    description: "Engineering MERN-based applications with secure authentication, interactive features, and AI-powered analytics platforms that reduce manual data analysis time by 70%.",
     achievements: [
-      "Led a team of 4 developers on a complex e-commerce platform",
-      "Implemented micro-frontend architecture serving 100K+ users",
-      "Reduced page load times by 40% through optimization techniques",
-      "Established development standards and best practices"
+      "Engineered a MERN-based blogging platform with secure JWT authentication",
+      "Implemented interactive comments and likes system boosting user engagement",
+      "Developed Excel Analytics Platform integrating Chart.js and AI-powered insights",
+      "Reduced manual data analysis time by 70% through automation"
     ],
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL", "AWS"]
+    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "Chart.js", "AI"]
   },
   {
     id: 2,
-    title: "Full-Stack Developer",
-    company: "StartupXYZ",
+    title: "Frontend Developer Intern",
+    company: "CodeSoft",
     location: "Remote",
-    period: "2021 - 2022",
-    type: "Full-time",
-    description: "Developed and maintained full-stack applications using modern web technologies. Collaborated with cross-functional teams to deliver high-quality products within tight deadlines.",
+    period: "Aug 2024",
+    type: "Internship",
+    description: "Designed and deployed responsive projects ensuring cross-browser compatibility and improved accessibility. Focused on modern frontend development practices.",
     achievements: [
-      "Built MVP from scratch that secured $2M in Series A funding",
-      "Developed REST APIs serving 50K+ daily active users",
-      "Implemented real-time features using WebSocket technology",
-      "Collaborated with design team to create responsive UI components"
+      "Designed and deployed 3 responsive projects (Landing Page, Calculator, Portfolio)",
+      "Used HTML, CSS, and JavaScript ensuring cross-browser compatibility",
+      "Improved accessibility standards across all projects",
+      "Delivered projects within tight deadlines with high quality"
     ],
-    technologies: ["React", "Node.js", "PostgreSQL", "Docker", "Jenkins"]
+    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
   },
   {
     id: 3,
-    title: "Frontend Developer",
-    company: "Digital Agency Pro",
-    location: "New York, NY",
-    period: "2020 - 2021",
-    type: "Full-time",
-    description: "Created responsive web applications and landing pages for various clients. Focused on performance optimization and cross-browser compatibility.",
+    title: "Computer Science Student",
+    company: "Graphic Era Hill University",
+    location: "Dehradun, India",
+    period: "Sep 2021 - Jun 2025",
+    type: "Education",
+    description: "Pursuing Bachelor of Technology in Computer Science & Engineering. Active in hackathons and building AI-powered solutions for real-world problems.",
     achievements: [
-      "Delivered 20+ client projects with 98% satisfaction rate",
-      "Improved website performance scores by average of 35%",
-      "Implemented accessibility standards (WCAG 2.1 AA)",
-      "Collaborated with designers to create pixel-perfect implementations"
+      "Finalist in hackathons, building AI-powered solutions for real-world problems",
+      "Completed Web Development Certification from Coursera (Nov 2023 - Dec 2023)",
+      "Completed C++ Certification from Udemy (Nov 2022 - Jan 2023)",
+      "Active on coding platforms: LeetCode and CodeChef"
     ],
-    technologies: ["React", "JavaScript", "SASS", "Webpack", "Figma"]
-  },
-  {
-    id: 4,
-    title: "Junior Web Developer",
-    company: "WebSolutions Inc",
-    location: "Boston, MA",
-    period: "2019 - 2020",
-    type: "Full-time",
-    description: "Started my professional journey as a junior developer, learning modern web development practices and contributing to various projects.",
-    achievements: [
-      "Contributed to 10+ successful project deliveries",
-      "Learned and applied modern JavaScript frameworks",
-      "Participated in code reviews and agile development processes",
-      "Built responsive components and interactive features"
-    ],
-    technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "PHP"]
+    technologies: ["C++", "C", "Data Structures", "Algorithms", "Web Development"]
   }
 ]
 
