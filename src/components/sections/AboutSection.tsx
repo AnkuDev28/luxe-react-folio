@@ -9,9 +9,9 @@ export function AboutSection() {
 
   const stats = [
     { number: "6+", label: "Projects Completed" },
-    { number: "2+", label: "Years Experience" },
+    { number: "2", label: "Internships Completed" },
     { number: "70%", label: "Performance Improvement" },
-    { number: "2", label: "Internships" }
+    { number: "2024", label: "Fresh Graduate" }
   ]
 
   return (
@@ -61,14 +61,14 @@ export function AboutSection() {
               <h3 className="text-2xl font-semibold">Hi, I'm Ankush Kumar</h3>
               <p className="text-muted-foreground leading-relaxed">
                 I'm a passionate full-stack developer specializing in MERN stack and AI-powered web applications. 
-                Currently pursuing my Bachelor's in Computer Science & Engineering at Graphic Era Hill University, 
-                with hands-on experience in building production-ready applications that improve data visualization 
-                efficiency and user engagement by up to 70%.
+                Recently graduated with my Bachelor's in Computer Science & Engineering from Graphic Era Hill University, 
+                with hands-on experience gained through internships in building production-ready applications that improve 
+                data visualization efficiency and user engagement by up to 70%.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I have experience working with modern technologies like React.js, Node.js, Express.js, MongoDB, 
-                and AI integration. I'm always eager to learn new technologies and build innovative solutions 
-                for real-world problems.
+                Through my internships and academic projects, I've gained experience working with modern technologies 
+                like React.js, Node.js, Express.js, MongoDB, and AI integration. As a fresh graduate, I'm eager to 
+                learn new technologies and build innovative solutions for real-world problems.
               </p>
             </div>
 

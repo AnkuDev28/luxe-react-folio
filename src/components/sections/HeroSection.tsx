@@ -57,11 +57,11 @@ export function HeroSection() {
             className="space-y-4"
           >
             <h2 className="text-xl md:text-3xl lg:text-4xl gradient-text font-semibold">
-              Full-Stack Developer & AI Enthusiast
+              Fresh Graduate | MERN Stack Developer
             </h2>
             <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto">
-              Specializing in MERN stack and AI-powered web applications. Passionate about building scalable, 
-              high-performance solutions that improve user engagement and data visualization efficiency.
+              Recent Computer Science graduate specializing in MERN stack and AI-powered web applications. 
+              Passionate about building scalable solutions with internship experience in improving user engagement.
             </p>
           </motion.div>
 
