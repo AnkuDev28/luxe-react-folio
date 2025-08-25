@@ -162,6 +162,15 @@ All colors MUST be HSL.
     background-clip: text;
   }
 
+  /* Custom Cursor */
+  .cursor-none {
+    cursor: none;
+  }
+
+  .cursor-none * {
+    cursor: none !important;
+  }
+
   /* Animated Underline */
   .animated-underline {
     position: relative;

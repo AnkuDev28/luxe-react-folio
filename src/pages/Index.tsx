@@ -1,5 +1,6 @@
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { Navigation } from '@/components/Navigation'
+import { CustomCursor } from '@/components/CustomCursor'
 import { HeroSection } from '@/components/sections/HeroSection'
 import { AboutSection } from '@/components/sections/AboutSection'
 import { SkillsSection } from '@/components/sections/SkillsSection'
@@ -11,7 +12,8 @@ import { FooterSection } from '@/components/sections/FooterSection'
 const Index = () => {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background cursor-none">
+        <CustomCursor />
         <Navigation />
         <main>
           <HeroSection />

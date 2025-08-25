@@ -43,7 +43,40 @@ export function Navigation() {
             animate={{ opacity: 1, x: 0 }}
             className="flex-shrink-0"
           >
-            <h1 className="text-xl font-bold gradient-text">Portfolio</h1>
+            <motion.div
+              className="relative"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <motion.h1 
+                className="text-2xl font-bold gradient-text cursor-pointer"
+                animate={{ 
+                  backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
+                }}
+                transition={{ 
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "linear"
+                }}
+                style={{
+                  backgroundSize: '200% 200%'
+                }}
+              >
+                AK
+              </motion.h1>
+              <motion.div
+                className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-lg blur opacity-30"
+                animate={{ 
+                  opacity: [0.3, 0.6, 0.3],
+                  scale: [1, 1.05, 1]
+                }}
+                transition={{ 
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+              />
+            </motion.div>
           </motion.div>
 
           {/* Desktop Navigation */}
