@@ -11,7 +11,7 @@ export function AboutSection() {
     { number: "6+", label: "Projects Completed" },
     { number: "2", label: "Internships Completed" },
     { number: "70%", label: "Performance Improvement" },
-    { number: "2024", label: "Fresh Graduate" }
+    { number: "2025", label: "Fresh Graduate" }
   ]
 
   return (
