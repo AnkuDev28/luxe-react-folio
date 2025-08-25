@@ -37,11 +37,13 @@ export function AboutSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative mx-auto w-80 h-80 rounded-2xl overflow-hidden">
-              <div className="w-full h-full bg-gradient-to-br from-primary to-secondary opacity-80 absolute inset-0"></div>
-              <div className="w-full h-full bg-gradient-to-br from-background to-muted flex items-center justify-center">
-                <div className="text-6xl font-bold gradient-text">AK</div>
-              </div>
+            <div className="relative mx-auto w-80 h-80 rounded-2xl overflow-hidden shadow-2xl">
+              <img 
+                src="/lovable-uploads/a8f33102-d869-42b6-8daf-d39bddc4941a.png" 
+                alt="Ankush Kumar - Computer Science Engineering Student"
+                className="w-full h-full object-cover object-center"
+              />
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
               {/* Floating Elements */}
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-accent rounded-full animate-bounce-gentle"></div>
               <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-secondary rounded-full animate-bounce-gentle" style={{ animationDelay: '1s' }}></div>
