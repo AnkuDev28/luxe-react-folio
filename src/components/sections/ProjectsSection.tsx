@@ -11,7 +11,7 @@ const projects = [
     title: "Excel Analytics Platform",
     description: "A web app to upload Excel files, generate interactive 2D/3D charts, and deliver AI-powered insights — improving data visualization speed by 70%. Built with MERN stack and Chart.js integration.",
     technologies: ["React", "Node.js", "MongoDB", "Chart.js", "AI"],
-    image: "📊",
+    image: "/lovable-uploads/53328ea3-204c-4d7b-b36f-90c773229746.png",
     demoUrl: "https://github.com/ankush6398/Xlense-analytics",
     githubUrl: "https://github.com/ankush6398/Xlense-analytics",
     status: "Live"
@@ -21,7 +21,7 @@ const projects = [
     title: "AI-Based Image Enhancer",
     description: "An AI-powered tool to enhance low-resolution or damaged images, improving clarity and detail using deep learning techniques. Currently in active development.",
     technologies: ["React", "Node.js", "AI/ML", "Deep Learning"],
-    image: "🖼️",
+    image: "/lovable-uploads/0f512c02-a341-4a6e-96c4-33f46a9cd115.png",
     demoUrl: "#",
     githubUrl: "#",
     status: "In Progress"
@@ -31,7 +31,7 @@ const projects = [
     title: "Animated Landing Page",
     description: "A visually dynamic landing page with smooth scroll animations and parallax effects for modern web experiences. Built using React and Shery.js for stunning visual effects.",
     technologies: ["React", "Shery.js", "CSS3", "Animation"],
-    image: "✨",
+    image: "/lovable-uploads/a8a67768-dc75-4fbe-97e9-ab018b289a07.png",
     demoUrl: "https://github.com/ankush6398/Design-with-shery.ls",
     githubUrl: "https://github.com/ankush6398/Design-with-shery.ls",
     status: "Live"
@@ -41,7 +41,7 @@ const projects = [
     title: "Document Holder",
     description: "A lightweight SPA for creating, editing, and managing documents entirely in browser storage — no backend required. Perfect for quick document management needs.",
     technologies: ["React", "LocalStorage", "JavaScript", "CSS3"],
-    image: "📄",
+    image: "/lovable-uploads/0766b01a-da84-443d-8029-b0d47672e98c.png",
     demoUrl: "https://github.com/ankush6398/Mini-Document_Holder",
     githubUrl: "https://github.com/ankush6398/Mini-Document_Holder",
     status: "Live"
@@ -51,7 +51,7 @@ const projects = [
     title: "MERN Blogging Platform",
     description: "A secure blogging platform with JWT authentication, interactive comments, and likes functionality — boosting user engagement. Built during internship at Zolo Development.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-    image: "📝",
+    image: "/lovable-uploads/31013a38-a5b8-4a10-8dfe-f375b7aa3a93.png",
     demoUrl: "#",
     githubUrl: "#",
     status: "Live"
@@ -61,7 +61,7 @@ const projects = [
     title: "Portfolio & Calculator",
     description: "Responsive projects including landing page, calculator, and portfolio built during frontend internship. Ensuring cross-browser compatibility and improved accessibility.",
     technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    image: "🧮",
+    image: "/lovable-uploads/c08670f8-e7bc-428b-9d67-4a00128b5e23.png",
     demoUrl: "https://github.com/ankush6398/CODSOFT",
     githubUrl: "https://github.com/ankush6398/CODSOFT",
     status: "Live"
@@ -101,7 +101,11 @@ export function ProjectsSection() {
                 <CardContent className="p-0">
                   {/* Project Image/Icon */}
                   <div className="h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center relative overflow-hidden group-hover:scale-105 transition-transform duration-300">
-                    <div className="text-6xl">{project.image}</div>
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                    />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                       <div className="flex space-x-2">
                         <Button size="sm" variant="glass">
