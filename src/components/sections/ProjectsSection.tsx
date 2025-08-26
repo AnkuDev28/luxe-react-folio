@@ -12,8 +12,8 @@ const projects = [
     description: "A web app to upload Excel files, generate interactive 2D/3D charts, and deliver AI-powered insights — improving data visualization speed by 70%. Built with MERN stack and Chart.js integration.",
     technologies: ["React", "Node.js", "MongoDB", "Chart.js", "AI"],
     image: "📊",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/ankush6398/Xlense-analytics",
+    githubUrl: "https://github.com/ankush6398/Xlense-analytics",
     status: "Live"
   },
   {
@@ -32,8 +32,8 @@ const projects = [
     description: "A visually dynamic landing page with smooth scroll animations and parallax effects for modern web experiences. Built using React and Shery.js for stunning visual effects.",
     technologies: ["React", "Shery.js", "CSS3", "Animation"],
     image: "✨",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/ankush6398/Design-with-shery.ls",
+    githubUrl: "https://github.com/ankush6398/Design-with-shery.ls",
     status: "Live"
   },
   {
@@ -42,8 +42,8 @@ const projects = [
     description: "A lightweight SPA for creating, editing, and managing documents entirely in browser storage — no backend required. Perfect for quick document management needs.",
     technologies: ["React", "LocalStorage", "JavaScript", "CSS3"],
     image: "📄",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/ankush6398/Mini-Document_Holder",
+    githubUrl: "https://github.com/ankush6398/Mini-Document_Holder",
     status: "Live"
   },
   {
@@ -62,8 +62,8 @@ const projects = [
     description: "Responsive projects including landing page, calculator, and portfolio built during frontend internship. Ensuring cross-browser compatibility and improved accessibility.",
     technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
     image: "🧮",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/ankush6398/CODSOFT",
+    githubUrl: "https://github.com/ankush6398/CODSOFT",
     status: "Live"
   }
 ]
@@ -148,11 +148,23 @@ export function ProjectsSection() {
 
                     {/* Action Buttons */}
                     <div className="flex space-x-2">
-                      <Button size="sm" variant="outline" className="flex-1">
+                      <Button 
+                        size="sm" 
+                        variant="outline" 
+                        className="flex-1"
+                        onClick={() => window.open(project.githubUrl, '_blank')}
+                        disabled={project.githubUrl === '#'}
+                      >
                         <Github className="h-4 w-4 mr-2" />
                         Code
                       </Button>
-                      <Button size="sm" variant="cta" className="flex-1">
+                      <Button 
+                        size="sm" 
+                        variant="cta" 
+                        className="flex-1"
+                        onClick={() => window.open(project.demoUrl, '_blank')}
+                        disabled={project.demoUrl === '#'}
+                      >
                         <ExternalLink className="h-4 w-4 mr-2" />
                         Demo
                       </Button>
